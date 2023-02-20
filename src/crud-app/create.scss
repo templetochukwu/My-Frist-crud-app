@@ -1,0 +1,39 @@
+.form__wrapper {
+    h1 {
+        text-align: center;
+    }
+    .form__holder {
+        background-color: #ffe4c4;
+        padding: 30px;
+        width: 50%;
+        margin: auto;
+
+        input {
+            display: flex;
+            margin-bottom: 2rem;
+            justify-content: center;
+            background-color: aliceblue;
+            border: none;
+            padding: 10px 20px;
+            width: 80%;
+            border-radius: 5px;
+
+        }
+
+        .fields {
+            width: 100% !important;
+        }
+
+       button {
+            background-color: darkolivegreen;
+            color: aliceblue;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            border-radius: 5px;
+            padding: .8rem 2rem;
+       }
+    }
+}
+
+

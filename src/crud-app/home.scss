@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.create {
+    text-decoration: none;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+    height: 2rem;
+    color: black;
+}
+
+.update__btn {
+    text-decoration: none;
+    background-color: darkgreen;
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.delete {
+    text-decoration: none;
+    background-color: darkred;
+    border: none;
+    outline: none;
+    margin-right: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.read {
+    text-decoration: none;
+    background-color: darkkhaki;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+.table__wrapper {
+    width: 90%;
+    margin: auto;
+    background-color: darkgrey;
+    border-radius: 10px;
+    padding: 30px;
+
+    table {
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+
+        thead {
+            position: relative;
+            th {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: .5rem;
+            padding-right: 5rem;
+            }
+            .action {
+                position: absolute;
+                left: 30rem;
+            }
+        }
+        td {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: .5rem;
+            padding-right: 5rem;
+        }
+        button{
+            cursor: pointer;
+        }
+    }
+}
