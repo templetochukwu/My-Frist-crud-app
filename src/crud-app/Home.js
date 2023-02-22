@@ -53,6 +53,9 @@ const Home = () => {
                   <td>{d.name}</td>
                   <td>{d.email}</td>
                   <td>
+                    <Link to={`/read/${d.id}`} className="read">
+                      Read
+                    </Link>
                     <Link className="update__btn" to={`/update/${d.id}`}>
                       Update
                     </Link>
@@ -62,9 +65,6 @@ const Home = () => {
                     >
                       Delete
                     </button>
-                    <Link to={`/read/${d.id}`} className="read">
-                      Read
-                    </Link>
                   </td>
                 </tr>
               ))}
